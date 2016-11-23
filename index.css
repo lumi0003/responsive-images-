@@ -1,0 +1,43 @@
+@media screen and (max-width:600px) {
+    div.pic1 {
+        background-image: url(300x400px-images/castlerock-small.png);
+        width: 400px;
+        height: 300px;
+    }
+    div.pic2 {
+        background-image: url(300x400px-images/consert-crowd-small.png);
+        width: 400px;
+        height: 300px;
+    }
+    div.pic3 {
+        background-image: url(300x400px-images/gibrarock-small.png);
+        width: 400px;
+        height: 300px;
+    }
+    div.pic4 {
+        background-image: url(300x400px-images/guitar-small.png);
+        width: 400px;
+        height: 300px;
+    }
+    div.pic5 {
+        background-image: url(300x400px-images/markus-spiske-carrots-small.png);
+        width: 400px;
+        height: 300px;
+    }
+    div.pic6 {
+        background-image: url(300x400px-images/pakistan%20small.png);
+        width: 400px;
+        height: 300px;
+    }
+    div.pic7 {
+        background-image: url(300x400px-images/stage-small.png);
+        width: 400px;
+        height: 300px;
+    }
+}
+
+;
+@media screen and (min-width:600px) {}
+
+;
+@media screen and (min-width:1200px) {}
