@@ -1,43 +1,302 @@
-@media screen and (max-width:600px) {
-    div.pic1 {
-        background-image: url(300x400px-images/castlerock-small.png);
-        width: 400px;
-        height: 300px;
-    }
-    div.pic2 {
-        background-image: url(300x400px-images/consert-crowd-small.png);
-        width: 400px;
-        height: 300px;
-    }
-    div.pic3 {
-        background-image: url(300x400px-images/gibrarock-small.png);
-        width: 400px;
-        height: 300px;
-    }
-    div.pic4 {
-        background-image: url(300x400px-images/guitar-small.png);
-        width: 400px;
-        height: 300px;
-    }
-    div.pic5 {
-        background-image: url(300x400px-images/markus-spiske-carrots-small.png);
-        width: 400px;
-        height: 300px;
-    }
-    div.pic6 {
-        background-image: url(300x400px-images/pakistan%20small.png);
-        width: 400px;
-        height: 300px;
-    }
-    div.pic7 {
-        background-image: url(300x400px-images/stage-small.png);
-        width: 400px;
-        height: 300px;
-    }
+h1 {
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #CC9599;
+    border-bottom: 10px solid #7F5D60
 }
 
-;
-@media screen and (min-width:600px) {}
+body {
+    background-color: #7F7F7F
+}
 
-;
-@media screen and (min-width:1200px) {}
+div.pic1 {
+    margin: 3% 3% 3% 3%;
+    background-image: url(300x400px-images/castlerock-small.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin: 3% auto 3% auto;
+    border: 10px #CC9599 solid;
+    align-self: center
+}
+
+
+}
+div.pic2 {
+    background-image: url(300x400px-images/consert-crowd-small.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin: 3% auto 3% auto;
+    border: 10px #CC9599 solid;
+    align-self: center
+}
+div.pic3 {
+    background-image: url(300x400px-images/gibrarock-small.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin: 3% auto 3% auto;
+    border: 10px #CC9599 solid;
+    align-self: center
+}
+div.pic4 {
+    background-image: url(300x400px-images/stage-small.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin: 3% auto 3% auto;
+    border: 10px #CC9599 solid;
+    align-self: center
+}
+div.pic5 {
+    background-image: url(300x400px-images/markus-spiske-carrots-small.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin: 3% auto 3% auto;
+    border: 10px #CC9599 solid;
+    align-self: center
+}
+div.pic6 {
+    background-image: url(300x400px-images/pakistan%20small.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin: 3% auto 3% auto;
+    border: 10px #CC9599 solid;
+    align-self: center
+}
+div.pic7 {
+    background-image: url(300x400px-images/guitar-small.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 265px;
+    margin: 3% auto 3% auto;
+    border: 10px #CC9599 solid;
+    align-self: center;
+    background-size: cover;
+}
+@media screen and (min-width:700px) {
+    h1 {
+        color: #FFF;
+        text-align: center;
+        background-color: #CC9599;
+        border-bottom: 10px solid #7F7F7F;
+    }
+    
+    body {
+        background-color: #FFBABF;
+    }
+    
+    div.pic1 {
+        margin: 3% 3% 3% 3%;
+        background-image: url(450x600px-images/carrot-medium.png);
+        background-repeat: no-repeat;
+        width: 40%;
+        height: 450px;
+        margin: 3% 3px 3% 3%;
+        border: 20px #7F5D60 solid;
+        background-size: cover;
+        align-self: center;
+        float: left;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    div.pic2 {
+        background-image: url(450x600px-images/castlerock-medium.png);
+        background-repeat: no-repeat;
+        width: 42%;
+        height: 450px;
+        margin: 3% 3% 3% 3px;
+        border: 20px #7F5D60 solid;
+        display: block;
+        align-self: center;
+        float: left;
+        overflow: auto;
+        display: inline-block;
+        background-size: cover;
+    }
+    
+    div.pic3 {
+        background-image: url(450x600px-images/crowd-medium.png);
+        background-repeat: no-repeat;
+        width: 40%;
+        height: 450px;
+        margin: 3% 3px 3% 3%;
+        border: 20px #7F5D60 solid;
+        align-self: center;
+        float: left;
+        background-size: cover;
+    }
+    
+    div.pic4 {
+        background-image: url(450x600px-images/guitar-medium.png);
+        background-repeat: no-repeat;
+        width: 42%;
+        height: 450px;
+        margin: 3% 3% 3% 3px;
+        border: 20px #7F5D60 solid;
+        align-self: center;
+        background-size: contain;
+        background-size: cover;
+        display: inline-block;
+        float: left;
+    }
+    
+    div.pic5 {
+        background-image: url(450x600px-images/gibraltarrock-medium.png);
+        background-repeat: no-repeat;
+        width: 40%;
+        height: 450px;
+        margin: 3% 3px 3% 3%;
+        border: 20px #7F5D60 solid;
+        align-self: center;
+        float: left;
+        background-size: cover;
+    }
+    
+    div.pic6 {
+        background-image: url(450x600px-images/pakistan-medium.png);
+        background-repeat: no-repeat;
+        width: 42%;
+        height: 450px;
+        margin: 3% 3% 3% 3px;
+        border: 20px #7F5D60 solid;
+        align-self: center;
+        background-size: contain;
+        background-size: cover;
+        display: inline-block;
+        float: left;
+    }
+    
+    div.pic7 {
+        background-image: url(450x600px-images/stage-medium.png);
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 450px;
+        margin: 3% auto 3% auto;
+        border: 20px #7F5D60 solid;
+        align-self: center;
+        ;
+        background-size: cover;
+        clear: both
+    }
+}
+@media screen and (min-width:1200px) {
+    h1 {
+        color: #7F5D60;
+        text-align: center;
+        background-color: #FFBABF;
+        border-bottom: 10px solid #CC9599;
+    }
+    
+    body {
+        background-color: #7F5D60;
+    }
+    
+    div.pic1 {
+        margin: 3% 3px 3% auto;
+        background-image: url(600x800px-images/stage-large.png);
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 450px;
+        margin: 3% 3px 3% 3%;
+        border: 20px #CC9599 solid;
+        background-size: cover;
+        align-self: center;
+        float: left;
+        overflow: hidden;
+        display: inline-block;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    div.pic2 {
+        background-image: url(600x800px-images/pakistan-large.png);
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 450px;
+        margin: 3% 3px 3% 3px;
+        border: 20px #CC9599 solid;
+        display: block;
+        align-self: center;
+        float: left;
+        overflow: auto;
+        display: inline-block;
+        background-size: cover;
+    }
+    
+    div.pic3 {
+        background-image: url(600x800px-images/guitar-large.png);
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 450px;
+        margin: 3% 3px 3% 3px;
+        border: 20px #CC9599 solid;
+        align-self: center;
+        float: left;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    div.pic4 {
+        background-image: url(600x800px-images/gibroltarock-large.png);
+        background-repeat: no-repeat;
+        width: 20%;
+        height: 450px;
+        margin: 3% 3% 3% 3px;
+        border: 20px #CC9599 solid;
+        align-self: center;
+        background-size: contain;
+        background-size: cover;
+        display: inline-block;
+        float: left;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    div.pic5 {
+        background-image: url(600x800px-images/crowd-large.png);
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 450px;
+        margin: 3% 3px 3% 3%;
+        border: 20px #CC9599 solid;
+        align-self: center;
+        clear: left;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    div.pic6 {
+        background-image: url(600x800px-images/castlerock-large.png);
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 450px;
+        margin: 3% 3px 3% 3px;
+        border: 20px #CC9599 solid;
+        align-self: center;
+        float: left;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    div.pic7 {
+        background-image: url(600x800px-images/carrot-large.png);
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 450px;
+        margin: 3% 3% 3% 3px;
+        border: 20px #CC9599 solid;
+        align-self: center;
+        background-size: contain;
+        background-size: cover;
+        display: inline-block;
+        float: ;
+        background-size: cover;
+        background-position: center;
+    }
+}
